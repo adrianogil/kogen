@@ -8,9 +8,17 @@ poetry = SimpleGrammar() \
         ])\
     .add_tag("begin", [\
         "안녕하세요","안녕"\
+        "안녕히 주무세요"
         ])\
     .add_tag("problem", [\
-        "안녕하세요"\
+        "안녕하세요",\
+        "#iamproblem#"
+        ])\
+    .add_tag("iamproblem", [\
+        "저는 #problematic_noun# 입니다"
+        ])\
+    .add_tag("problematic_noun", [\
+        "선생",
         ])\
     .add_tag("solution", [\
         "안녕하세요"\
