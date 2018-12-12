@@ -1,0 +1,1 @@
+alias kogen="python2 $KOGEN_DIR/kogen.py"
