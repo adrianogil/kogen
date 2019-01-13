@@ -16,7 +16,7 @@ xgo = SimpleGrammar() \
 goseun_questions = SimpleGrammar() \
     .set_text("#goseun_question#")\
     .add_tag("goseun_question", [\
-        "#xgo#은 무엇입니까?\n#xgo#은 #substantive#입니다." \
+        "나: #xgo#은 무엇입니까?\n가: #xgo#은 #substantive#입니다." \
         ])\
     .add_tag("substantive", [
         "교회", "책", "책상", "공책", "의자", "구두", "문", "사탕"
