@@ -6,3 +6,4 @@ fi
 
 alias kogen="python2 -m kogen.kogen"
 alias kogen-goseun-questions="python2 -m kogen.goseun_questions"
+alias kogen-pcg-dialog="python3 -m kogen.procedural_dialog"
