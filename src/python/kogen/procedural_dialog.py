@@ -1,5 +1,5 @@
 import sys
-from simplegrammar.grammar import SimpleGrammar
+from simplegrammar import SimpleGrammar
 
 
 def generate_dialog():

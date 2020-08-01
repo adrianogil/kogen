@@ -1,10 +1,12 @@
 import sys
-from simplegrammar.grammar import SimpleGrammar
+from simplegrammar import SimpleGrammar
 
 
 total_questions = 10
 if len(sys.argv) > 1:
     total_questions = int(sys.argv[1])
+
+
 
 xgo = SimpleGrammar() \
     .set_text("#xgo#")\
