@@ -24,8 +24,7 @@ def generate_dialog():
         ]
     }
 
-    dialog = SimpleGrammar()
-    print("%s\n" % (dialog.parse(dialog_grammar),))
+    print("%s\n" % (SimpleGrammar.parse(dialog_grammar),))
 
 
 if __name__ == "__main__":
